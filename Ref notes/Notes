@@ -1,0 +1,15 @@
+Things toNote
+1.In SQL, =, != null doesn't work always use is null, is not null
+2.IF ELSE IN SQL
+    Select employee_id(CASE
+    WHEN <WRITE CONDITION >AND/OR <WRITE CONDITION TWO>... THEN <VALUE>
+    ELSE <VALUE>
+    END)
+    As <rename>
+    From
+    Orderby
+3.STRING COMPARISON LIKE< string value>, NOT LIKE < string value> eg “%M”
+4.Starts with m “M%”, Ends with M “%M”
+5.If condition in SQL
+	Update <table name> set column_name = if(<condition>,<value if con true,val if con false)
+

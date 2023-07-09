@@ -16,4 +16,69 @@ https://ide.goorm.io/my/dashboard#/containers
 
 mysql-ctl cli
 
+show databases;
+create database niveditha;
+drop database niveditha ;
+use <database> ;
+select  database; --> which database are you currently in ?
+
+create table <table name>
+
+create table employee
+(
+name varchar(50),
+age INT ,
+salary INT
+);
+
+desc employee;
+
+==============
+session 2
+CRUD OPERATIONS
+Create Read Update delete
+
+create - insert
+read - select
+update - update
+delete - delete
+
+CREATE TABLE employee (
+firstname varchar(20),
+middlename varchar(20),
+lastname varchar(20),
+age int,
+salary int,
+location varchar(20)
+);
+
+insert into employee values ('kapil','kumar','jha',28,20000,'Bangalore');
+
+insert into employee (firstname,middlename,lastname,age,salary,location)
+values ('preet','ravi','sharma',28,20000,'Bangalore'),('soha','edmund','pitt',28,20000,'Bangalore');
+
+play around with columns not having null
+-------------
+CREATE TABLE employee (
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20) NOT NULL,
+age int NOT NULL,
+salary int NOT NULL,
+location varchar(20) NOT NULL
+);
+----------------------
+
+DEFAULT VALUES
+CREATE TABLE employeenew (
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20) NOT NULL,
+age int NOT NULL,
+salary int NOT NULL,
+location varchar(20)  NOT NULL default 'bangalore'
+);
+
+then null cant be a value in this case location only default or you give explicitly
+
 

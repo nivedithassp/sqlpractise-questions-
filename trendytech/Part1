@@ -1,0 +1,19 @@
+Session 1
+==========
+Database - collection of data and holds this data in the form of tables
+Tables - collection of data in the form of rows and columns
+similar to excel spread sheet
+database provides us the capability to access and manipulate this data
+
+2 types of databases
+1. Relational db - stored in rows and cols and tables have relations b/w them
+eb - mysql , sql server, postresQL, mariadb
+2. NoSQL database- key value, Document , Graph tables dont have relation
+Hbase,mongoDB, Cassandra
+
+
+https://ide.goorm.io/my/dashboard#/containers
+
+mysql-ctl cli
+
+

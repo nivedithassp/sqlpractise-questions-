@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8476367d-3a88-4f33-8663-476a7e0dd480" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/trendytech/Part 2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trendytech/Part1" beforeDir="false" afterPath="$PROJECT_DIR$/trendytech/Part1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trendytech/trendytech.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/trendytech/Part 2" beforeDir="false" afterPath="$PROJECT_DIR$/trendytech/Part 2" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

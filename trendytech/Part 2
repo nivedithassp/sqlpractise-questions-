@@ -3,3 +3,100 @@ Primary key
 auto increment key
 unique key
 primary key vs unique key
+
+CREATE TABLE employeenew (
+firstname varchar(20) NOT NULL,
+middlename varchar(20),
+lastname varchar(20) NOT NULL,
+age int NOT NULL,
+salary int NOT NULL,
+location varchar(20)  NOT NULL default 'bangalore'
+);
+
+
+
+
+ primary key constraint
+
+uniquely identify each record in the table
+null value is not allowed
+duplicates not allowed
+
+
+
+ CREATE TABLE employeenew (
+ id int primary key,
+ firstname varchar(20) NOT NULL,
+ middlename varchar(20),
+ lastname varchar(20) NOT NULL,
+ age int NOT NULL,
+ salary int NOT NULL,
+ location varchar(20)  NOT NULL default 'bangalore'
+ ) ;
+
+ CREATE TABLE employeenew (
+ id int ,
+ firstname varchar(20) NOT NULL,
+ middlename varchar(20),
+ lastname varchar(20) NOT NULL,
+ age int NOT NULL,
+ salary int NOT NULL,
+ location varchar(20)  NOT NULL default 'bangalore',
+ PRIMARY KEY(id)
+ PRIMARY KEY(id,name)
+ ) ;
+
+ composite primary key --> more than 2
+
+CREATE TABLE employeenew (
+ id int AUTO_INCREMENT,
+ firstname varchar(20) NOT NULL,
+ middlename varchar(20),
+ lastname varchar(20) NOT NULL,
+ age int NOT NULL,
+ salary int NOT NULL,
+ location varchar(20)  NOT NULL default 'bangalore',
+ PRIMARY KEY(id)
+ PRIMARY KEY(id,name)
+ ) ;
+
+
+ unique key
+ unique key can hold NULL
+ MySQL - a unique key can hold any number of NULL values
+ in some of the other famous DB's unique key hold only one NULL
+
+
+ primary key -uniquely identify a record
+ unique key - values do not duplicate
+
+
+for a given table single primary key and multiple unique keys
+
+
+
+
+
+Session 4 - Update Delete Alter
+==============================
+DDL vs DML
+Truncate vs Delete
+CRUD
+CREATE READ UPDATE DELETE
+
+CREATE --> INSERT
+READ --> SELECT
+UPDATE --> UPDATE
+DELETE --> DELETE
+
+
+
+CREATE TABLE EMPLOYEE(
+id int primary key,
+firstname varchar(20) not null,
+middle name varchar(20),
+last name varchar(20) not null,
+age int not null ,
+salary int not null,
+location varchar(20) not null default 'bangalore'
+

@@ -99,4 +99,35 @@ last name varchar(20) not null,
 age int not null ,
 salary int not null,
 location varchar(20) not null default 'bangalore'
+);
 
+drop database learning;
+create database learning ;
+
+
+use learning
+;
+
+CREATE TABLE EMPLOYEE(
+id int primary key,
+firstname varchar(20) not null,
+middle name varchar(20),
+last name varchar(20) not null,
+age int not null ,
+salary int not null,
+location varchar(20) not null default 'bangalore'
+);
+
+insert into employee(id,firstname,lastname,age,salary)values (1,'rajesh','sharma',28,10000);
+insert into employee(id,firstname,lastname,age,salary)values (2,'kapil','dev',28,10000);
+insert into employee(id,firstname,lastname,age,salary)values (3,'rahul','kl',28,10000);
+
+
+select * from
+select firstname, lastname from
+ by default its not case sensitive
+ wanna make it case sensitive --> use binary
+ select * from employee where binary firstname = 'kapil'
+ this is case sensitive and matches  the exact
+  aliasing
+  select firstname as name  from employee

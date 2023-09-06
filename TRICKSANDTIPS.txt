@@ -1,0 +1,9 @@
+1. wanna find out even num ending number
+mod(col,2) = 0
+2.  find out difference in same table
+SELECT COUNT(CITY)- COUNT(DISTINCT CITY) FROM STATION ;
+
+3.want to find out a length of a string
+select CITY, length(CITY) as city_len from STATION order by city_len asc, CITY asc limit ;
+4. ORDER BY DEFAULT VALUE IS ASC ORDER
+5. wanna find matching string - select CITY FROM STATION WHERE CITY LIKE 'A%' OR CITY LIKE 'E%' OR CITY LIKE 'I%' OR CITY LIKE 'O%' OR CITY LIKE 'U%' ;
